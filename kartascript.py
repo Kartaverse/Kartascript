@@ -158,7 +158,7 @@ def GetMaskImage(data, inum, file):
 	return None
 
 def GetRotation(data, inum):
-	"""What is are the rotation values for an image in a pts file? Returns a list with yaw/pitch/roll values."""
+	"""What are the rotation values for an image in a pts file? Returns a list with yaw/pitch/roll values."""
 	rotation = []
 	if type(data) == dict:
 		rotation.append(data["project"]["imagegroups"][inum]["position"]["params"]["yaw"])
@@ -169,6 +169,7 @@ def GetRotation(data, inum):
 		return None
 
 def GetCSV(data):
+	"""Return a CSV formatted spreadsheet output of common PTGui project parameters."""
 	totalImages = GetImageCount(data)
 	csv_string = "Filename,Include,Image Width,Image Height,X Rotation,Y Rotation,Z Rotation\n"
 	for index in range (totalImages):
