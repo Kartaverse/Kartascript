@@ -1,5 +1,5 @@
 """
-Kartascript v0.1 Updated 2024-12-03 8.24 AM
+Kartascript v0.1 Updated 2024-12-03 8.39 AM
 By Andrew Hazelden <andrew@andrewhazelden.com>
 
 Kartascript is a Python module for immersive post-production workflow automation. It supports PTGui .pts JSON file parsing.
@@ -29,7 +29,7 @@ print(ks.Dump(pt))
 
 # Open PTS from a URL:
 import kartascript as ks
-pt = ks.ReadURL("https://gitlab.com/WeSuckLess/Reactor/-/raw/master/Atoms/com.AndrewHazelden.KartaVP.PT/Comps/Kartaverse/PT/Demo%20PT/Samyang_8mm_v001.pts?ref_type=heads")
+pt = ks.ReadURL("https://raw.githubusercontent.com/Kartaverse/Kartascript/refs/heads/master/Demo%20PT/Samyang_8mm_v001.pts")
 print(ks.Dump(pt))
 
 # Count the number of images:
@@ -183,6 +183,6 @@ if __name__ == '__main__':
 	print("---------------------------------------------------------\n")
 	print("A Python module for immersive post-production workflow automation. It supports PTGui .pts JSON file parsing.\n\n")
 
-	pt = ReadURL("https://gitlab.com/WeSuckLess/Reactor/-/raw/master/Atoms/com.AndrewHazelden.KartaVP.PT/Comps/Kartaverse/PT/Demo%20PT/Samyang_8mm_v001.pts?ref_type=heads")
+	pt = ReadURL("https://raw.githubusercontent.com/Kartaverse/Kartascript/refs/heads/master/Demo%20PT/Samyang_8mm_v001.pts")
 
 	print(GetCSV(pt))
