@@ -57,7 +57,7 @@ Kartascript is a Python module for immersive post-production workflow automation
 
 	import kartascript as ks
 	pt = ks.ReadFile("Demo PT/Under the Bridge PTGui v12.pts")
-	print(GetMaskImage(pt, 1,"Demo PT/image.png"))
+	print(ks.GetMaskImage(pt, 1,"Demo PT/image.png"))
 
 ## Read an include/exclude image mask as Base64 encoded data:
 
