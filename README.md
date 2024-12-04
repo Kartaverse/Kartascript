@@ -16,8 +16,9 @@ Kartascript is a Python module for immersive post-production workflow automation
 ## Python Module Usage Examples
 
 ## Navigate into the folder where the Python module exists:
-cd $HOME/Desktop/kartascript/
-python3
+
+	cd $HOME/Desktop/kartascript/
+	python3
 
 ## Open a PTS File:
 
