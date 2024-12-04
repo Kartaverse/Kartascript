@@ -50,17 +50,17 @@ print(ks.GetImageFilename(pt,0))
 # Write the include/exclude image mask to disk as a PNG image:
 import kartascript as ks
 pt = ks.ReadFile("Demo PT/Under the Bridge PTGui v12.pts")
-print(GetMaskImage(pt, 1,"Demo PT/image.png"))
+print(ks.GetMaskImage(pt, 1, "Demo PT/image.png"))
 
 # Read an include/exclude image mask as Base64 encoded data:
 import kartascript as ks
 pt = ks.ReadFile("Demo PT/Under the Bridge PTGui v12.pts")
-print(ks.GetMaskImageBase64(pt,0))
+print(ks.GetMaskImageBase64(pt, 0))
 
 # Read the image dimensions:
 import kartascript as ks
 pt = ks.ReadFile("Demo PT/Under the Bridge PTGui v12.pts")
-print(ks.GetImageSize(pt,0))
+print(ks.GetImageSize(pt, 0))
 
 # Read the image yaw/pitch/roll rotations:
 import kartascript as ks
