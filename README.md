@@ -3,7 +3,7 @@
 Updated 2024-12-04 5.16 PM  
 By Andrew Hazelden <andrew@andrewhazelden.com>  
 
-Kartascript is a Python module for immersive post-production workflow automation. It provides XR/VP tech artists with PTGui .pts JSON file parsing tools.
+Kartascript is a Python module for immersive post-production workflow automation. It provides PTGui .pts JSON file parsing tools.
 
 ## Open-Source License
 - LGPL
