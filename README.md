@@ -1,6 +1,6 @@
 # Kartascript v0.1 
 
-Updated 2024-12-05 7.22 PM  
+Updated 2024-12-05 8.21 PM  
 By Andrew Hazelden <andrew@andrewhazelden.com>  
 
 Kartascript is a Python module for immersive post-production workflow automation. It provides PTGui .pts JSON file parsing tools.
@@ -20,8 +20,8 @@ Kartascript is a Python module for immersive post-production workflow automation
 ## Navigate into the folder where the Python module exists:
 
 ```bash
-	cd $HOME/Desktop/kartascript/
-	python3
+cd $HOME/Desktop/kartascript/
+python3
 ```
 
 ## Open a PTS File:
